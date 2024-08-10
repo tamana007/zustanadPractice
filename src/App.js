@@ -1,11 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import Coloumns from './component/Coloumns';
+
 
 function App() {
   return (
     <div className="App">
-     <hi>Zustand Practice here</hi>
-     <p>checking git</p>
+      <Coloumns state={'planned'}/> 
+      <Coloumns state={'ongoing'}/> 
+      <Coloumns state={'done'}/> 
+
+    
     </div>
   );
 }
